@@ -8,7 +8,7 @@ To develop a neural network regression model for the given dataset.
 Neural network regression is a supervised learning method, and therefore requires a tagged dataset, which includes a label column. Because a regression model predicts a numerical value, the label column must be a numerical data type. A neural network regression model uses interconnected layers of artificial neurons to learn the mapping between input features and a continuous target variable. It leverages activation functions like ReLU to capture non-linear relationships beyond simple linear trends. Training involves minimizing the loss function (e.g., Mean Squared Error) through an optimizer (e.g., Gradient Descent). Regularization techniques like L1/L2 and dropout prevent overfitting. This approach offers flexibility and high accuracy for complex regression problems.
 
 ## Neural Network Model:
-![Screenshot 2024-02-27 140153](https://github.com/anbuselvan1519/basic-nn-model/assets/139841744/473c7db9-e1c3-4770-9671-0acddcb30017)
+![Screenshot 2024-02-28 143253](https://github.com/anbuselvan1519/basic-nn-model/assets/139841744/db3e127a-57c1-4375-bf04-4e8f931783d9)
 
 ## DESIGN STEPS:
 
@@ -79,7 +79,7 @@ loss_df.plot()
 X_test1 = Scaler.transform(X_test)
 ai_model.evaluate(X_test1,y_test)
 
-X_n1 = [[30]]
+X_n1 = [[1]]
 X_n1_1 = Scaler.transform(X_n1)
 ai_model.predict(X_n1_1)
 ```
@@ -94,7 +94,7 @@ ai_model.predict(X_n1_1)
 ![Screenshot 2024-02-27 140731](https://github.com/anbuselvan1519/basic-nn-model/assets/139841744/431be646-1d75-46e7-8b8b-c1101a989262)
 
 ### New Sample Data Prediction
-![Screenshot 2024-02-27 140542](https://github.com/anbuselvan1519/basic-nn-model/assets/139841744/e3675586-7dcb-415d-8db3-82bcdf6cba49)
+![Screenshot 2024-03-01 084922](https://github.com/anbuselvan1519/basic-nn-model/assets/139841744/03967299-fa14-43a3-aea8-4f8238596343)
 
 ## RESULT
 A neural network regression model for the given dataset has been developed successfully.
